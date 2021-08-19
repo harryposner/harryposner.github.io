@@ -1,19 +1,18 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <title>Harry Posner</title>
 
-    <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style type="text/css">
+    <style>
         body {
             background-color: #f0f0f2;
             margin: 0;
             padding: 0;
             font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
-        div {
+        .main-content {
             width: 600px;
             margin: 5em auto;
             padding: 2em;
@@ -39,18 +38,22 @@
                 width: auto;
             }
         }
+        .monospace{
+            font-family: monospace;
+        }
     </style>
 </head>
 
 <body>
-<div class="contentBox">
+<div class="main-content">
     <h1>Harry Posner</h1>
     You can find me on the web at:
     <ul>
         <li><a href="https://github.com/harryposner">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/harryposner">LinkedIn</a></li>
     </ul>
-    You can also reach me by email at <tt>$FIRSTNAME</tt> at this domain.
+    You can also reach me by email at <span class="monospace">$FIRSTNAME</span>
+    at this domain.
 </div>
 </body>
 </html>
